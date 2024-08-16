@@ -1,0 +1,256 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"Academy"},
+{"type":"table","name":"Assignments","database":"Academy","data":
+[
+{"assignment_id":"1","course_id":"1","title":"Assignment 1","description":"Basic programming tasks","due_date":"2024-10-15"},
+{"assignment_id":"2","course_id":"2","title":"Homework 1","description":"Differentiation exercises","due_date":"2024-11-01"},
+{"assignment_id":"3","course_id":"3","title":"Lab Report 1","description":"Quantum theory experiments","due_date":"2024-11-20"},
+{"assignment_id":"4","course_id":"4","title":"Project 1","description":"Thermodynamics experiments","due_date":"2024-12-10"},
+{"assignment_id":"5","course_id":"5","title":"Report 1","description":"Organic synthesis report","due_date":"2024-12-15"}
+]
+}
+,{"type":"table","name":"Athletic_Teams","database":"Academy","data":
+[
+{"team_id":"1","team_name":"Soccer Team","description":"University soccer team"},
+{"team_id":"2","team_name":"Basketball Team","description":"University basketball team"},
+{"team_id":"3","team_name":"Tennis Team","description":"University tennis team"},
+{"team_id":"4","team_name":"Track and Field","description":"University track and field team"},
+{"team_id":"5","team_name":"Swimming Team","description":"University swimming team"}
+]
+}
+,{"type":"table","name":"Buildings","database":"Academy","data":
+[
+{"building_id":"1","building_name":"Main Science Building","location":"North Campus"},
+{"building_id":"2","building_name":"Mathematics Hall","location":"East Campus"},
+{"building_id":"3","building_name":"Engineering Lab","location":"South Campus"},
+{"building_id":"4","building_name":"Chemistry Wing","location":"West Campus"},
+{"building_id":"5","building_name":"Physics Observatory","location":"Central Campus"}
+]
+}
+,{"type":"table","name":"Clubs","database":"Academy","data":
+[
+{"club_id":"1","club_name":"Coding Club","description":"Club for programming and coding activities"},
+{"club_id":"2","club_name":"Mathletes","description":"Competitive math club"},
+{"club_id":"3","club_name":"Physics Club","description":"Club focused on physics experiments and talks"},
+{"club_id":"4","club_name":"Engineering Innovations","description":"Club for engineering projects and innovation"},
+{"club_id":"5","club_name":"Chemistry Experiments","description":"Club for chemistry hands-on activities"}
+]
+}
+,{"type":"table","name":"Courses","database":"Academy","data":
+[
+{"course_id":"1","course_name":"Introduction to Programming","department_id":"1","syllabus":"Basics of programming, data structures","grading_scheme":"Homework 30%, Exams 70%"},
+{"course_id":"2","course_name":"Calculus I","department_id":"2","syllabus":"Differentiation and integration","grading_scheme":"Homework 40%, Final Exam 60%"},
+{"course_id":"3","course_name":"Quantum Mechanics","department_id":"3","syllabus":"Principles of quantum theory","grading_scheme":"Assignments 30%, Midterm 30%, Final Exam 40%"},
+{"course_id":"4","course_name":"Thermodynamics","department_id":"4","syllabus":"Laws of thermodynamics, heat transfer","grading_scheme":"Labs 50%, Exams 50%"},
+{"course_id":"5","course_name":"Organic Chemistry","department_id":"5","syllabus":"Chemical reactions and mechanisms","grading_scheme":"Quizzes 20%, Lab Reports 30%, Final Exam 50%"}
+]
+}
+,{"type":"table","name":"Departments","database":"Academy","data":
+[
+{"department_id":"1","department_name":"Computer Science","building_id":"1"},
+{"department_id":"2","department_name":"Mathematics","building_id":"2"},
+{"department_id":"3","department_name":"Physics","building_id":"1"},
+{"department_id":"4","department_name":"Engineering","building_id":"3"},
+{"department_id":"5","department_name":"Chemistry","building_id":"2"}
+]
+}
+,{"type":"table","name":"Digital_Resources","database":"Academy","data":
+[
+{"resource_id":"1","title":"AI Research Paper","url":"http:\/\/example.com\/ai_research"},
+{"resource_id":"2","title":"Mathematical Modeling Techniques","url":"http:\/\/example.com\/math_models"},
+{"resource_id":"3","title":"Quantum Computing Overview","url":"http:\/\/example.com\/quantum_computing"},
+{"resource_id":"4","title":"Engineering Design Innovations","url":"http:\/\/example.com\/eng_design"},
+{"resource_id":"5","title":"Organic Chemistry Methods","url":"http:\/\/example.com\/org_chem"}
+]
+}
+,{"type":"table","name":"Enrollments","database":"Academy","data":
+[
+{"enrollment_id":"1","student_id":"1","course_id":"1","semester":"Fall 2024"},
+{"enrollment_id":"2","student_id":"2","course_id":"2","semester":"Spring 2024"},
+{"enrollment_id":"3","student_id":"3","course_id":"3","semester":"Fall 2024"},
+{"enrollment_id":"4","student_id":"4","course_id":"4","semester":"Spring 2024"},
+{"enrollment_id":"5","student_id":"5","course_id":"5","semester":"Fall 2024"}
+]
+}
+,{"type":"table","name":"Exams","database":"Academy","data":
+[
+{"exam_id":"1","course_id":"1","title":"Midterm Exam","date":"2024-11-05"},
+{"exam_id":"2","course_id":"2","title":"Final Exam","date":"2024-12-15"},
+{"exam_id":"3","course_id":"3","title":"Midterm Exam","date":"2024-12-01"},
+{"exam_id":"4","course_id":"4","title":"Final Exam","date":"2024-12-15"},
+{"exam_id":"5","course_id":"5","title":"Final Exam","date":"2024-12-20"}
+]
+}
+,{"type":"table","name":"Facilities","database":"Academy","data":
+[
+{"facility_id":"1","facility_name":"Gymnasium","description":"Main gymnasium for sports and fitness"},
+{"facility_id":"2","facility_name":"Library","description":"University library with extensive resources"},
+{"facility_id":"3","facility_name":"Research Lab","description":"Lab for scientific research and experiments"},
+{"facility_id":"4","facility_name":"Student Center","description":"Center for student activities and events"},
+{"facility_id":"5","facility_name":"Auditorium","description":"Venue for lectures and performances"}
+]
+}
+,{"type":"table","name":"Faculties","database":"Academy","data":
+[
+{"faculty_id":"1","first_name":"John","last_name":"Doe","email":"john.doe@example.com","phone":"555-1111","department_id":"1"},
+{"faculty_id":"2","first_name":"Jane","last_name":"Doe","email":"jane.doe@example.com","phone":"555-2222","department_id":"2"},
+{"faculty_id":"3","first_name":"Michael","last_name":"Smith","email":"michael.smith@example.com","phone":"555-3333","department_id":"3"},
+{"faculty_id":"4","first_name":"Emily","last_name":"Jones","email":"emily.jones@example.com","phone":"555-4444","department_id":"4"},
+{"faculty_id":"5","first_name":"Sarah","last_name":"Williams","email":"sarah.williams@example.com","phone":"555-5555","department_id":"5"}
+]
+}
+,{"type":"table","name":"Financial_Transactions","database":"Academy","data":
+[
+{"transaction_id":"1","transaction_date":"2024-08-01","amount":"500.00","transaction_type":"Tuition Payment"},
+{"transaction_id":"2","transaction_date":"2024-08-15","amount":"300.00","transaction_type":"Library Fee"},
+{"transaction_id":"3","transaction_date":"2024-09-01","amount":"150.00","transaction_type":"Student Organization Fee"},
+{"transaction_id":"4","transaction_date":"2024-10-01","amount":"200.00","transaction_type":"Lab Equipment Purchase"},
+{"transaction_id":"5","transaction_date":"2024-11-01","amount":"100.00","transaction_type":"Athletic Fee"}
+]
+}
+,{"type":"table","name":"Grades","database":"Academy","data":
+[
+{"grade_id":"1","enrollment_id":"1","assignment_id":"1","quiz_id":null,"exam_id":"1","project_id":null,"grade":"88.50"},
+{"grade_id":"2","enrollment_id":"2","assignment_id":"2","quiz_id":null,"exam_id":"2","project_id":null,"grade":"92.00"},
+{"grade_id":"3","enrollment_id":"3","assignment_id":"3","quiz_id":null,"exam_id":"3","project_id":null,"grade":"85.75"},
+{"grade_id":"4","enrollment_id":"4","assignment_id":"4","quiz_id":null,"exam_id":"4","project_id":null,"grade":"90.25"},
+{"grade_id":"5","enrollment_id":"5","assignment_id":"5","quiz_id":null,"exam_id":"5","project_id":null,"grade":"87.50"}
+]
+}
+,{"type":"table","name":"Grants","database":"Academy","data":
+[
+{"grant_id":"1","title":"AI Research Grant","amount":"50000.00","funding_agency":"National Science Foundation","start_date":"2024-01-01","end_date":"2024-12-31"},
+{"grant_id":"2","title":"Mathematics Model Funding","amount":"30000.00","funding_agency":"Mathematics Society","start_date":"2024-02-01","end_date":"2024-11-30"},
+{"grant_id":"3","title":"Quantum Computing Grant","amount":"60000.00","funding_agency":"Tech Innovations Fund","start_date":"2024-03-01","end_date":"2024-12-31"},
+{"grant_id":"4","title":"Engineering Design Grant","amount":"40000.00","funding_agency":"Engineering Board","start_date":"2024-04-01","end_date":"2024-12-31"},
+{"grant_id":"5","title":"Chemistry Innovation Funding","amount":"35000.00","funding_agency":"Chemical Research Foundation","start_date":"2024-05-01","end_date":"2024-12-31"}
+]
+}
+,{"type":"table","name":"Journals","database":"Academy","data":
+[
+{"journal_id":"1","title":"Journal of AI Research","issn":"1234-5678","volume":"10","issue":"2"},
+{"journal_id":"2","title":"Mathematics Journal","issn":"2345-6789","volume":"15","issue":"4"},
+{"journal_id":"3","title":"Quantum Computing Journal","issn":"3456-7890","volume":"5","issue":"1"},
+{"journal_id":"4","title":"Engineering Design Review","issn":"4567-8901","volume":"8","issue":"3"},
+{"journal_id":"5","title":"Chemical Innovations Review","issn":"5678-9012","volume":"12","issue":"6"}
+]
+}
+,{"type":"table","name":"Lecturers","database":"Academy","data":
+[
+{"faculty_id":"1","contract_end_date":"2025-06-30"},
+{"faculty_id":"2","contract_end_date":"2024-05-15"},
+{"faculty_id":"3","contract_end_date":"2026-08-01"},
+{"faculty_id":"4","contract_end_date":"2024-12-31"},
+{"faculty_id":"5","contract_end_date":"2025-03-01"}
+]
+}
+,{"type":"table","name":"Library_Books","database":"Academy","data":
+[
+{"book_id":"1","title":"Introduction to Algorithms","author":"Thomas H. Cormen","isbn":"9780262033848","available_copies":"5"},
+{"book_id":"2","title":"Calculus: Early Transcendentals","author":"James Stewart","isbn":"9781285741550","available_copies":"4"},
+{"book_id":"3","title":"Quantum Mechanics: A Modern Development","author":"Leslie E. Ballentine","isbn":"9789810212754","available_copies":"3"},
+{"book_id":"4","title":"Engineering Mechanics: Dynamics","author":"James L. Meriam","isbn":"9781118329575","available_copies":"6"},
+{"book_id":"5","title":"Organic Chemistry","author":"David R. Klein","isbn":"9781119604698","available_copies":"7"}
+]
+}
+,{"type":"table","name":"Professors","database":"Academy","data":
+[
+{"faculty_id":"1","rank":"Professor"},
+{"faculty_id":"2","rank":"Associate Professor"},
+{"faculty_id":"3","rank":"Assistant Professor"},
+{"faculty_id":"4","rank":"Professor"},
+{"faculty_id":"5","rank":"Associate Professor"}
+]
+}
+,{"type":"table","name":"Projects","database":"Academy","data":
+[
+{"project_id":"1","course_id":"1","title":"Project 1","description":"Final project for programming course","submission_date":"2024-12-20"},
+{"project_id":"2","course_id":"2","title":"Project 2","description":"Calculus project on integration","submission_date":"2024-12-20"},
+{"project_id":"3","course_id":"3","title":"Project 3","description":"Research project in quantum mechanics","submission_date":"2024-12-20"},
+{"project_id":"4","course_id":"4","title":"Project 4","description":"Thermodynamics research project","submission_date":"2024-12-20"},
+{"project_id":"5","course_id":"5","title":"Project 5","description":"Organic chemistry synthesis","submission_date":"2024-12-20"}
+]
+}
+,{"type":"table","name":"Publications","database":"Academy","data":
+[
+{"publication_id":"1","title":"AI for the Future","publication_date":"2024-06-15","authors":"John Doe, Alice Johnson","journal":"Journal of AI Research","conference":null,"book":null,"research_id":"1"},
+{"publication_id":"2","title":"Modeling Techniques","publication_date":"2024-07-20","authors":"Jane Doe","journal":"Mathematics Journal","conference":null,"book":null,"research_id":"2"},
+{"publication_id":"3","title":"Quantum Leaps","publication_date":"2024-08-25","authors":"Michael Smith","journal":null,"conference":"Quantum Computing Conference","book":null,"research_id":"3"},
+{"publication_id":"4","title":"Design Innovations","publication_date":"2024-09-10","authors":"Emily Jones","journal":null,"conference":null,"book":"Engineering Design Book","research_id":"4"},
+{"publication_id":"5","title":"Organic Methods","publication_date":"2024-10-05","authors":"Sarah Williams","journal":"Chemistry Review","conference":null,"book":null,"research_id":"5"}
+]
+}
+,{"type":"table","name":"Quizzes","database":"Academy","data":
+[
+{"quiz_id":"1","course_id":"1","title":"Quiz 1","date":"2024-10-01"},
+{"quiz_id":"2","course_id":"2","title":"Quiz 2","date":"2024-11-05"},
+{"quiz_id":"3","course_id":"3","title":"Quiz 3","date":"2024-11-15"},
+{"quiz_id":"4","course_id":"4","title":"Quiz 4","date":"2024-12-01"},
+{"quiz_id":"5","course_id":"5","title":"Quiz 5","date":"2024-12-10"}
+]
+}
+,{"type":"table","name":"Research_Projects","database":"Academy","data":
+[
+{"research_id":"1","title":"AI Research","description":"Research on AI algorithms and applications","lead_faculty_id":"1","start_date":"2024-01-01","end_date":"2024-12-31"},
+{"research_id":"2","title":"Mathematical Models","description":"Developing new mathematical models for data analysis","lead_faculty_id":"2","start_date":"2024-02-01","end_date":"2024-11-30"},
+{"research_id":"3","title":"Quantum Computing","description":"Exploring the potential of quantum computing","lead_faculty_id":"3","start_date":"2024-03-01","end_date":"2024-12-31"},
+{"research_id":"4","title":"Engineering Design","description":"Innovative engineering design projects","lead_faculty_id":"4","start_date":"2024-04-01","end_date":"2024-12-31"},
+{"research_id":"5","title":"Chemistry Innovations","description":"New methods in organic chemistry","lead_faculty_id":"5","start_date":"2024-05-01","end_date":"2024-12-31"}
+]
+}
+,{"type":"table","name":"Resources","database":"Academy","data":
+[
+{"resource_id":"1","resource_type":"Lab Equipment","description":"Advanced computing lab equipment","availability":"1"},
+{"resource_id":"2","resource_type":"Books","description":"Textbooks and reference materials","availability":"1"},
+{"resource_id":"3","resource_type":"Software","description":"Specialized research software","availability":"0"},
+{"resource_id":"4","resource_type":"Chemicals","description":"Various chemicals for experiments","availability":"1"},
+{"resource_id":"5","resource_type":"Hardware","description":"Computing hardware for research","availability":"1"}
+]
+}
+,{"type":"table","name":"Scholarships","database":"Academy","data":
+[
+{"scholarship_id":"1","student_id":"1","amount":"1000.00","awarded_date":"2024-07-15"},
+{"scholarship_id":"2","student_id":"2","amount":"1500.00","awarded_date":"2024-07-15"},
+{"scholarship_id":"3","student_id":"3","amount":"2000.00","awarded_date":"2024-07-15"},
+{"scholarship_id":"4","student_id":"4","amount":"1200.00","awarded_date":"2024-07-15"},
+{"scholarship_id":"5","student_id":"5","amount":"1800.00","awarded_date":"2024-07-15"}
+]
+}
+,{"type":"table","name":"Students","database":"Academy","data":
+[
+{"student_id":"1","first_name":"Alice","last_name":"Johnson","dob":"2001-03-14","email":"alice.johnson@example.com","phone":"555-1234","major":"Computer Science"},
+{"student_id":"2","first_name":"Bob","last_name":"Smith","dob":"2002-06-25","email":"bob.smith@example.com","phone":"555-5678","major":"Mathematics"},
+{"student_id":"3","first_name":"Charlie","last_name":"Brown","dob":"2001-11-30","email":"charlie.brown@example.com","phone":"555-8765","major":"Physics"},
+{"student_id":"4","first_name":"Diana","last_name":"Prince","dob":"2000-02-12","email":"diana.prince@example.com","phone":"555-4321","major":"Engineering"},
+{"student_id":"5","first_name":"Edward","last_name":"Norton","dob":"2002-07-18","email":"edward.norton@example.com","phone":"555-3456","major":"Chemistry"}
+]
+}
+,{"type":"table","name":"Student_Organizations","database":"Academy","data":
+[
+{"organization_id":"1","organization_name":"Computer Science Club","description":"Club for computer science enthusiasts"},
+{"organization_id":"2","organization_name":"Math Society","description":"Society for math lovers"},
+{"organization_id":"3","organization_name":"Physics Enthusiasts","description":"Group for physics students and professionals"},
+{"organization_id":"4","organization_name":"Engineering Society","description":"Engineering-focused student group"},
+{"organization_id":"5","organization_name":"Chemistry Club","description":"Club dedicated to chemistry discussions and activities"}
+]
+}
+,{"type":"table","name":"Teaching_Assistants","database":"Academy","data":
+[
+{"faculty_id":"1","supervisor_id":"1"},
+{"faculty_id":"2","supervisor_id":"2"},
+{"faculty_id":"3","supervisor_id":"3"},
+{"faculty_id":"4","supervisor_id":"4"},
+{"faculty_id":"5","supervisor_id":"5"}
+]
+}
+,{"type":"table","name":"Tuition_Fees","database":"Academy","data":
+[
+{"tuition_id":"1","student_id":"1","amount":"5000.00","payment_date":"2024-08-01"},
+{"tuition_id":"2","student_id":"2","amount":"5000.00","payment_date":"2024-08-01"},
+{"tuition_id":"3","student_id":"3","amount":"5000.00","payment_date":"2024-08-01"},
+{"tuition_id":"4","student_id":"4","amount":"5000.00","payment_date":"2024-08-01"},
+{"tuition_id":"5","student_id":"5","amount":"5000.00","payment_date":"2024-08-01"}
+]
+}
+]
