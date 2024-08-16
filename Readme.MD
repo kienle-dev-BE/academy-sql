@@ -1,5 +1,6 @@
 
 3.	Relationship Modeling:
+
     student - enrollment: One to Many (One student can enroll in many courses)
     course - enrollment: One to Many (One course can have many students enrolled)
     department - faculty: One to Many (One department has many faculty members)
