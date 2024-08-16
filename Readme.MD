@@ -1,14 +1,14 @@
 
 3.	Relationship Modeling:
 
-    student - enrollment: One to Many (One student can enroll in many courses)
-    course - enrollment: One to Many (One course can have many students enrolled)
-    department - faculty: One to Many (One department has many faculty members)
-    faculty - research_project: One to Many (One faculty member can lead multiple research projects)
-    research_project - publication: One to Many (One research project can produce multiple publications)
-    course - assignment/quiz/exam/project: One to Many (One course can have many assessments)
-    faculty - department: One to Many (One department can have many faculty members)
-    building - department: One to Many (One building can house many departments)
+    - student - enrollment: One to Many (One student can enroll in many courses)
+    - course - enrollment: One to Many (One course can have many students enrolled)
+    - department - faculty: One to Many (One department has many faculty members)
+    - faculty - research_project: One to Many (One faculty member can lead multiple research projects)
+    - research_project - publication: One to Many (One research project can produce multiple publications)
+    - course - assignment/quiz/exam/project: One to Many (One course can have many assessments)
+    - faculty - department: One to Many (One department can have many faculty members)
+    - building - department: One to Many (One building can house many departments)
 
 4.	Access Patterns (Queries):
     1.	List all students enrolled in a specific course, along with their grades:
